@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindRectangle.Api", "FindRectangle.Api\FindRectangle.Api.csproj", "{632E6E03-B1F1-45B5-97C5-9105A8BA58BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D2D19365-9272-4979-81CB-A84439524780}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E82FC1D3-D7C6-49D7-BDE4-A88C99A9CF0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindRectangle.Application", "FindRectangle.Application\FindRectangle.Application.csproj", "{8C004096-57E6-4181-8152-8588CEB2D302}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindRectangle.Domain", "FindRectangle.Domain\FindRectangle.Domain.csproj", "{DFC38141-3B04-4C00-B759-001C2BC59652}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindRectangle.Infastructure", "FindRectangle.Infastructure\FindRectangle.Infastructure.csproj", "{8BF4B772-25A1-48A3-AD97-BCEADF414C25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{632E6E03-B1F1-45B5-97C5-9105A8BA58BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{632E6E03-B1F1-45B5-97C5-9105A8BA58BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{632E6E03-B1F1-45B5-97C5-9105A8BA58BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632E6E03-B1F1-45B5-97C5-9105A8BA58BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C004096-57E6-4181-8152-8588CEB2D302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C004096-57E6-4181-8152-8588CEB2D302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C004096-57E6-4181-8152-8588CEB2D302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C004096-57E6-4181-8152-8588CEB2D302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFC38141-3B04-4C00-B759-001C2BC59652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFC38141-3B04-4C00-B759-001C2BC59652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFC38141-3B04-4C00-B759-001C2BC59652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFC38141-3B04-4C00-B759-001C2BC59652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BF4B772-25A1-48A3-AD97-BCEADF414C25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BF4B772-25A1-48A3-AD97-BCEADF414C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BF4B772-25A1-48A3-AD97-BCEADF414C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BF4B772-25A1-48A3-AD97-BCEADF414C25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C004096-57E6-4181-8152-8588CEB2D302} = {E82FC1D3-D7C6-49D7-BDE4-A88C99A9CF0A}
+		{DFC38141-3B04-4C00-B759-001C2BC59652} = {E82FC1D3-D7C6-49D7-BDE4-A88C99A9CF0A}
+		{8BF4B772-25A1-48A3-AD97-BCEADF414C25} = {E82FC1D3-D7C6-49D7-BDE4-A88C99A9CF0A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A388887-7C63-4472-B29A-DCA6A7757732}
+	EndGlobalSection
+EndGlobal

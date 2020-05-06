@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\PointGroup\" />
+    <Folder Include="Commands\Point\CreatePointCommand\" />
+    <Folder Include="Commands\Point\DeletePointCommand\" />
+    <Folder Include="Commands\Point\UpdatePointCommand\" />
+    <Folder Include="Queries\GetPointQuery\" />
+    <Folder Include="Queries\GetPointsByGroupQuery\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.3" />
+  </ItemGroup>
+
+</Project>
