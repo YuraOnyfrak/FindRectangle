@@ -1,4 +1,4 @@
-﻿using FindRectangle.Application.Common.Interfaces;
+using FindRectangle.Application.Common.Interfaces;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace FindRectangle.Application.Queries.GetCountRectangleQuery
+namespace FindRectangle.Application.Queries
 {
     public class GetCountRectangleQuery : IRequest<int>
     {

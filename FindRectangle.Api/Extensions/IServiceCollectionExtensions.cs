@@ -1,10 +1,10 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace FindRectangle.Infastructure.Extensions
+namespace FindRectangle.Api.Extensions
 {
     public static class IServiceCollectionExtensions
     {
